@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700,900");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10%;
+}
+.container {
+  background-color: #dbdbdb;
+  width: 610px;
+  height: 329px;
+  border-radius: 30px;
+  margin-top: 3%;
+}
+
+.container .main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  top: -50px;
+}
+
+img {
+  width: 219px;
+  height: 219px;
+}
+
+.container .btn1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 475px;
+  height: 56px;
+  background-color: #feeee2;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  position: relative;
+  top: -10px;
+}
+
+.flex-btn {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  gap: 25px;
+}
+
+.flex-btn .btn2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 157px;
+  height: 41px;
+  border-radius: 12px;
+  background-color: #6fd240;
+  font-size: 16px;
+  font-weight: 700;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.flex-btn .btn3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 157px;
+  height: 41px;
+  border-radius: 12px;
+  background-color: #e12e2e;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
